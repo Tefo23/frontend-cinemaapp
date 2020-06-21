@@ -34,6 +34,7 @@ add(e){
           'Content-Type': 'application/json'
       }
   }).then((res)=>{
+    
       console.log(res.data)
       alert("Successfully! Added the Movie.")
       window.location.reload();
